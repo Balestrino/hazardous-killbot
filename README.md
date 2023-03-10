@@ -1,7 +1,8 @@
 # hazardous-killbot
-[Invite the Bot to your Server!](https://discord.com/api/oauth2/authorize?client_id=981835348030160948&permissions=274877925376&scope=bot%20applications.commands)
 
-User: Hazardous-Killbot#1916
+MODIFIED BOT!
+
+Credits to: Hazardous-Killbot#1916
 
 Posts EvE-Online Killmails von zkillboard.com to a discord channel using the zkillboard webhook endpoint and discord.js
 
@@ -12,7 +13,7 @@ The bot was developed by [SvenBrnn](https://zkillboard.com/character/694883910/)
 ## Commands
 
 | key                                              | description                                                                                      |
-|--------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
 | /zkill-subscribe corporation [id] ([min-vaue])   | Make bot post kills of corporation with id [id] ([min-value] is optional minimal amout of isk)   |
 | /zkill-subscribe alliance [id] ([min-vaue])      | Make bot post kills of alliance with id [id] ([min-value] is optional minimal amout of isk)      |
 | /zkill-subscribe character [id] ([min-vaue])     | Make bot post kills of character with id [id] ([min-value] is optional minimal amout of isk)     |
@@ -45,31 +46,31 @@ Open your corp/char/alliance page on zkillboard and copy the number at the end o
 - docker
 - docker-compose
 
-
 ### Startup (dev):
 
 - run `copy the env.sample to .env and fill out params`
 - run `docker-compose up`
 
 ### Startup (prod):
- 
+
 - run `copy the env.sample to .env and fill out params`
 - run `docker-compose -f ./docker-compose.prod.yaml up`
 
 ### Build (prod):
- 
+
 - run `cd src && docker-compose -f ./docker-compose.prod.yaml build`
 
 ### Config:
 
 #### Environment
 
-| key                  | description                        |
-|----------------------|------------------------------------|
-| DISCORD_BOT_TOKEN    | Your discord bot token             |
-| DISCORD_CLIENT_ID    | Your discord application client id |
+| key               | description                        |
+| ----------------- | ---------------------------------- |
+| DISCORD_BOT_TOKEN | Your discord bot token             |
+| DISCORD_CLIENT_ID | Your discord application client id |
 
-## Licence 
+## Licence
+
 Copyright 2023 SvenBrnn
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
